@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery Effect</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body class="text-center text-xl mt-10 text-white">
+    <div class="box py-5">
+      <div class="box1 w-20 h-20 bg-green-500 m-auto"></div>
+      <div class="box2 w-20 h-20 bg-green-800 m-auto mt-5"></div>
+      <div class="box3 w-20 h-20 bg-green-500 m-auto mt-5"></div>
+    </div>
+    <button class="slideshowBtn btn btn-success">Hide And Show me</button>
+
+    <div class="slideDown py-5">
+      <button class="slideBtn btn btn-success mb-2">Hide And Show me</button>
+      <button class="slideStop btn btn-success mb-2">Stop</button>
+      <div class="slideBox w-full h-52 bg-green-500 m-auto">
+        <p class="text-black">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+          voluptate, tempora neque magni nostrum autem esse quos aliquam vel ad.
+        </p>
+      </div>
+    </div>
+
+    <div class="callBack py-5">
+      <button class="callBackBtn btn btn-success mb-2">CallBack</button>
+      <div class="callBackBox w-full h-10 bg-green-500 m-auto">
+        <p class="text-black">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+          voluptate, tempora neque magni nostrum autem esse quos aliquam vel ad.
+        </p>
+      </div>
+    </div>
+
+    <div class="chaining py-5">
+      <button class="chainingBtn btn btn-success mb-2">chaining</button>
+      <div class="chainingBox w-full h-10 bg-green-500 m-auto">
+        <p class="chainingText text-black">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+          voluptate, tempora neque magni nostrum autem esse quos aliquam vel ad.
+        </p>
+      </div>
+    </div>
+
+    <div class="animate py-5">
+      <button class="animateBtn btn btn-success mb-2">Animate Me</button>
+      <div class="animateBox w-40 h-40 bg-green-500 absolute">
+        <p class="text-black">This is Animate Box</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
