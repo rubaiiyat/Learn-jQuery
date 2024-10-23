@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Idea</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body class="text-center text-xl mt-10 text-white">
+    <div>
+      <h1 class="hidemessage">This is a important message</h1>
+      <button class="showmessage btn btn-primary">
+        Show the important message
+      </button>
+    </div>
+
+    <div class="hidelorem" id="hidelorem">
+      <h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error
+        voluptatibus exercitationem distinctio doloremque omnis molestias labore
+        consectetur, accusantium sapiente?
+      </h2>
+      <button class="hideLorem btn btn-primary" id="hideLorem">
+        Hide Lorem
+      </button>
+    </div>
+
+    <div class="toggleDiv" id="">
+      <h2 class="toggleText">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error
+        voluptatibus exercitationem distinctio doloremque omnis molestias labore
+        consectetur, accusantium sapiente?
+      </h2>
+      <button class="toggleMe btn btn-primary" id="">Toggle Me</button>
+    </div>
+
+    <div class="inputFocus" id="">
+      <input class="inputFocusText" type="text" />
+      <button class="inputFocusBtn btn btn-primary" id="">Submit</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
