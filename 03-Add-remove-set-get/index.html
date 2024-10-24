@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Remove Set Get</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body class="text-center text-xl mt-10 text-white">
+    <!-------GET------->
+    <div class="inputDiv w-30 mx-auto mt-10">
+      <input class="addInput" type="text" placeholder="Enter the Value" />
+      <button class="inputBtn btn btn-success">Alert Me</button>
+    </div>
+
+    <!---------ADD--------->
+    <div class="setDiv w-30 mx-auto mt-10">
+      <p class="afterPara">This is After Paragraph</p>
+      <p class="before">This is Before Paragraph</p>
+      <p class="append">This is Append Paragraph</p>
+      <p class="prepend">This is Prepend Paragraph</p>
+      <button class="AfterBtn btn btn-success">After</button>
+      <button class="BeforeBtn btn btn-success">Before</button>
+      <button class="AppendBtn btn btn-success">Append</button>
+      <button class="PrependBtn btn btn-success">Prepend</button>
+    </div>
+
+    <!---------REMOVE--------->
+    <div class="removeDiv w-30 mx-auto mt-10">
+      <p class="removetext">Remove ME</p>
+      <button class="removeBtn btn btn-error">Remove</button>
+    </div>
+    <div class="emptyDiv w-30 mx-auto mt-10">
+      <p class="emptytext">Empty ME</p>
+      <button class="emptyBtn btn btn-error">Empty</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
